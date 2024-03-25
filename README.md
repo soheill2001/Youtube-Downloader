@@ -43,19 +43,18 @@ Linux:
 source 'your venv name'/bin/activate
 ```
 
-3. Install the required dependencies:
+4. Install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 Make sure you have pytube installed, which is used for fetching YouTube video details and downloading them.
 
-4. Run the development server:
+## Usage
+1. Run the development server:
 ```bash
 python manage.py runserver
 ```
 
-5. Visit http://127.0.0.1:8000/ in your web browser to use the application.
+2. Visit http://127.0.0.1:8000/ in your web browser to use the application.
 
-## Usage
 Enter a valid YouTube URL into the input field and click on "Fetch Video". The video details will appear along with the download options for various resolutions.
-
