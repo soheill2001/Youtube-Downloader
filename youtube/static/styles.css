@@ -1,0 +1,119 @@
+#index_body {
+    background-image: url('img/sunrise-road-highway-morning-concepts-with-a-road.jpg');
+    background-size: cover;
+}
+
+#about_body {
+    background-image: url('img/cassie-boca-gFyy2Po7T-k-unsplash.jpg');
+    background-size: cover;
+}
+
+#contact_body {
+    background-image: url('img/backlit.jpg');
+    background-size: cover;
+}
+
+header{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.download-button {
+    display: inline-block;
+    width: auto;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    border-radius: 20px;
+    color: #007bff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.download-button:hover, .download-button:focus {
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu {
+    background-color: rgba(0, 0, 0, 0.61);
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3{
+    width: 35px;
+    height: 5px;
+    background-color: red;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.link_hidden{
+    visibility: hidden;
+	transition: all 0.5s ease-out;
+	height: 0;
+	margin: -45px;
+	opacity: 0;
+}
+
+.link_unhidden{
+    visibility: visible;
+	transition: all 0.5s ease-out;
+	opacity: 1;
+}
+
+.a_link:link, .a_link:visited {
+    background-color: rgba(0, 0, 0, 0.61);
+    color: #34FF1B;
+    border: 2px solid blue;
+    border-radius: 25px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size:15px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.a_link:hover, .a_link:active {
+    background-color: green;
+    color: white;
+}
+
+.point:hover, .point:active {
+    background-color: rgba(0, 0, 0, 0.60);
+    color: white;
+    border-radius: 20px;
+}
+
+.link:link, .link:visited{
+    color: green;
+}
+
+.link:hover, .link:active{
+    color: white;
+}
+
+.container {
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.61);
+  padding: 20px;
+}
