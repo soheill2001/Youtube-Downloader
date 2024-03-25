@@ -14,7 +14,6 @@ Before you begin, ensure you have met the following requirements:
 
 - You have a `Windows/Linux/Mac` machine.
 - You have installed `Python 3.x` and `pip`.
-- You have a basic understanding of Python and Django.
 
 ## Installation
 
