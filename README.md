@@ -22,4 +22,4 @@ To install Django YouTube Downloader, follow these steps:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/django-youtube-downloader.git
+git clone https://github.com/soheill2001/Youtube-Downloader.git
