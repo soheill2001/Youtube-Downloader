@@ -30,6 +30,19 @@ git clone https://github.com/soheill2001/Youtube-Downloader.git
 cd Youtube-Downloader
 ```
 
+3. Create Virtual Environment
+```bash
+python -m venv 'your venv name'
+```
+If you are on Windows, open cmd and enter:
+```bash
+'your venv name'/Scripts/activate
+```
+Linux:
+```bash
+source 'your venv name'/bin/activate
+```
+
 3. Install the required dependencies:
 ```bash
 pip install -r requirements.txt
