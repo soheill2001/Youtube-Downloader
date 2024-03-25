@@ -23,3 +23,26 @@ To install Django YouTube Downloader, follow these steps:
 1. Clone the repository:
 ```bash
 git clone https://github.com/soheill2001/Youtube-Downloader.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd Youtube-Downloader
+```
+
+3. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
+Make sure you have pytube installed, which is used for fetching YouTube video details and downloading them.
+
+4. Run the development server:
+```bash
+python manage.py runserver
+```
+
+5. Visit http://127.0.0.1:8000/ in your web browser to use the application.
+
+## Usage
+Enter a valid YouTube URL into the input field and click on "Fetch Video". The video details will appear along with the download options for various resolutions.
+
